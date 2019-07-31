@@ -254,21 +254,21 @@ When more than one column is added SXA will wrap the `"col-XX-XX"` divs in an ex
 ```html
 <!-- fluid_3x3x6_lg -->
 <div class="container-fluid">
-	<div class="row">
+    <div class="row">
     
         <div class="row component column-splitter">
-        	<div class="col-lg-3">
-        		<!-- widget compnent --> page specific component
-        	</div>
-        	<div class="col-lg-3">
-        		<!-- widget compnent --> page specific component
-        	</div>
-        	<div class="col-lg-6">
-        		<!-- testimonial compnent --> shared component
-        	</div>
+            <div class="col-lg-3">
+                <!-- widget compnent --> page specific component
+            </div>
+            <div class="col-lg-3">
+                <!-- widget compnent --> page specific component
+            </div>
+            <div class="col-lg-6">
+                <!-- testimonial compnent --> shared component
+            </div>
         </div>
     	
-	</div>
+    </div>
 </div>
 ```
 
