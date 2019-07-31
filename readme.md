@@ -61,11 +61,11 @@ To make it easy to distinguish between the SXA default code and the partials, de
 ```html
 <!-- SXA header wrapper open
 <header>
-	<div id="header">-->
+    <div id="header">-->
         
-		HEADER PARTIALS TO BE ADDED HERE
+        HEADER PARTIALS TO BE ADDED HERE
             
-	<!--</div>
+    <!--</div>
 </header>
 SXA header wrapper close -->
 
@@ -75,11 +75,11 @@ MAIN
 
 <!-- SXA footer wrapper open
 <footer>
-	<div id="footer">-->
+    <div id="footer">-->
 
-		FOOTER PARTIALS TO BE ADDED HERE
+        FOOTER PARTIALS TO BE ADDED HERE
             
-	<!--</div>
+    <!--</div>
 </footer>
 SXA footer wrapper close -->
 ```
@@ -97,17 +97,17 @@ The header & footer can be split into sections with `"container-fluid"` or `"con
 ```html
 <!-- SXA header wrapper open
 <header>
-	<div id="header">-->
+    <div id="header">-->
         
         <div class="container-fluid">
             <div class="container">
             
-				<!-- logo component --> shared component
+                <!-- logo component --> shared component
                 
             </div>
         </div>
 
-	<!--</div>
+    <!--</div>
 </header>
 SXA header wrapper close -->
 ```
@@ -117,15 +117,15 @@ SXA header wrapper close -->
 ```html
 <!-- SXA header wrapper open
 <header>
-	<div id="header">-->
+    <div id="header">-->
         
         <div class="container-fluid">
 
-			<!-- logo component --> shared component
+            <!-- logo component --> shared component
 
         </div>
 
-	<!--</div>
+    <!--</div>
 </header>
 SXA header wrapper close -->
 ```
@@ -142,15 +142,15 @@ To make it easy to distinguish between the SXA default code and partials, the SX
 ```html
 <!-- SXA main wrapper open
 <main>
-	<div id="content" class="container-fluid">
-		<div class="row">
-			<div class="row"> -->
+    <div id="content" class="container-fluid">
+        <div class="row">
+            <div class="row"> -->
             
-            PARTIALS TO BE ADDED HERE
+                PARTIALS TO BE ADDED HERE
             
-			<!-- </div>
-		</div>
-	</div>
+            <!-- </div>
+        </div>
+    </div>
 </main>
 SXA main wrapper close -->
 ```
@@ -163,9 +163,9 @@ SXA main wrapper close -->
 
 ```html
 <div class="container-fluid">
-	<div class="row">
+    <div class="row">
 
-	</div>
+    </div>
 </div>
 ```
 
@@ -184,15 +184,15 @@ SXA main wrapper close -->
 ```html
 <!-- contained_6x6_md -->
 <div class="container-fluid">
-	<div class="row">
+    <div class="row">
 
-		<div class="container">
-			<div class="row">
+        <div class="container">
+            <div class="row">
             
-			</div>
-		</div>
+            </div>
+        </div>
 
-	</div>
+    </div>
 </div>
 ```
 
@@ -206,15 +206,15 @@ SXA main wrapper close -->
 ```html
 <!-- contained_12_md -->
 <div class="container-fluid">
-	<div class="row">
+    <div class="row">
 
-		<div class="container">
-			<div class="row">
-            	<!-- rich text component --> page specific component
-			</div>
-		</div>
+        <div class="container">
+            <div class="row">
+                <!-- rich text component --> page specific component
+            </div>
+        </div>
 
-	</div>
+    </div>
 </div>
 ```
 
@@ -225,10 +225,10 @@ When more than one column is added SXA will wrap the `"col-XX-XX"` divs in an ex
 ```html
 <!-- contained_6x6_md -->
 <div class="container-fluid">
-	<div class="row">
+    <div class="row">
 
-		<div class="container">
-			<div class="row">
+        <div class="container">
+            <div class="row">
 
                 <div class="row component column-splitter">
                     <div class="col-md-6">
@@ -239,10 +239,10 @@ When more than one column is added SXA will wrap the `"col-XX-XX"` divs in an ex
                     </div>
                 </div>
 
-			</div>
-		</div>
+            </div>
+        </div>
 
-	</div>
+    </div>
 </div>
 ```
 
